@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT proprietario (nome, (email|telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, numero?)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+      <descricao>Apartamento com vista para o mar</descricao>
+      <proprietario>
+        <nome>João da Silva</nome>
+        <email>joao@email.com</email>
+        <telefone>11999990000</telefone>
+        <telefone>21987654321</telefone>
+      </proprietario>
+      <endereco>
+        <rua>Av. Atlântica</rua>
+        <bairro>Copacabana</bairro>
+        <cidade>Rio de Janeiro</cidade>
+        <numero>1200</numero>
+      </endereco>
+      <caracteristicas>
+        <tamanho>85m²</tamanho>
+        <numQuartos>2</numQuartos>
+        <numBanheiros>2</numBanheiros>
+      </caracteristicas>
+      <valor>95.0000</valor>
+    </imovel>
+
+    <imovel>
+      <descricao>Casa térrea com quintal</descricao>
+      <proprietario>
+        <nome>Maria Oliveira</nome>
+        <telefone>21987654321</telefone>
+      </proprietario>
+      <endereco>
+        <rua>Rua das Palmeiras</rua>
+        <bairro>Jardim Botânico</bairro>
+        <cidade>Belo Horizonte</cidade>
+        <numero>45</numero>
+      </endereco>
+      <caracteristicas>
+        <tamanho>150m²</tamanho>
+        <numQuartos>3</numQuartos>
+        <numBanheiros>2</numBanheiros>
+      </caracteristicas>
+      <valor>780000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet mobiliada no centro</descricao>
+        <proprietario>
+            <nome>Carlos Mendes</nome>
+            <email>carlos@exemplo.com</email>
+            <email>contato@carlosimoveis.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>Paraiba</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>30m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa mobiliada no centro</descricao>
+        <proprietario>
+            <nome>Carlos Mendes</nome>
+            <email>carlos@exemplo.com</email>
+            <telefone>21987654321</telefone>
+            <telefone>11999990000</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>30m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+    <imovel>
+        <descricao>Apartamento mobiliada no centro</descricao>
+        <proprietario>
+            <nome>Carlos Mendes</nome>
+            <email>carlos@exemplo.com</email>
+            <telefone>21987654321</telefone>
+            <telefone>11999990000</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Principal</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>30m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+</imobiliaria>
