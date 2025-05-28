@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTAPYE quiz SYSTEM "quiz.dtd">
+<quiz versao="1">
+    <discilpina>Biologia</discilpina>
+    <professor>
+        <nome>Isadora</nome>
+        <matricula>12345678</matricula>
+    </professor>
+    <turma>InfoWeb4M</turma>
+    <data>28/05/2025</data>
+
+    <questoes>
+        <!-- Questão 01 -->
+        <questao>
+            <enunciado>O que é uma célula?</enunciado>
+            <pontuacao>5</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Um tipo de tecido</alternativa>
+                <alternativa correta="sim">Uma unidade básica da vida</alternativa>
+                <alternativa correta="nao">Um órgão do corpo</alternativa>
+                <alternativa correta="nao">Um conjunto de átomos</alternativa>
+                <alternativa correta="nao">Uma molécula complexa</alternativa>
+            </alternativas>
+        </questao>
+        <!-- Questão 02 -->
+         <questao>
+            <enunciado>Quais são os principais tipos de células?</enunciado>
+            <pontuacao>5</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Animais e minerais</alternativa>
+                <alternativa correta="nao">Vegetais e minerais</alternativa>
+                <alternativa correta="sim">Procariontes e eucariontes</alternativa>
+                <alternativa correta="nao">Simples e compostas</alternativa>
+                <alternativa correta="nao">Atômicas e moleculares</alternativa>
+         </questao>
+         <!-- Questão 03 -->
+        <questao>
+            <enunciado>Qual é a função da membrana plasmatica?</enunciado>
+            <pontuacao>5</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Produzir energia para a celula</alternativa>
+                <alternativa correta="sim">Controlar a entrada e saida de substancias</alternativa>
+                <alternativa correta="nao">Armazenar nutrientes</alternativa>
+                <alternativa correta="nao">Realizar a sintese proteica</alternativa>
+                <alternativa correta="nao">Dividir a celula durante a reprodução</alternativa>
+            </alternativas>
+        </questao>
+        <!-- Questão 04 -->
+        <questao>
+            <enunciado>Onde ocorre a produção de energia dentro da celula?</enunciado>
+            <pontuacao>5</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Nucleo</alternativa>
+                <alternativa correta="nao">Ribossomos</alternativa>
+                <alternativa correta="sim">Mitocondrias</alternativa>
+                <alternativa correta="nao">Lisossomos</alternativa>
+                <alternativa correta="nao">Cloroplastos</alternativa>
+            </alternativas>
+        </questao>
+        <!-- Questão 05 -->
+        <questao>
+            <enunciado>Qual a diferença entre células procariontes e eucariontes?</enunciado>
+            <pontuacao>5</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Procariontes possuem núcleo definido, e eucariontes não</alternativa>
+                <alternativa correta="sim">Eucariontes possuem núcleo definido, e procariontes não</alternativa>
+                <alternativa correta="nao">Procariontes possuem mitocôndrias, e eucariontes não</alternativa>
+                <alternativa correta="nao">Eucariontes são sempre menores que procariontes</alternativa>
+                <alternativa correta="nao">Procariontes possuem cloroplastos, e eucariontes não</alternativa>
+            </alternativas>
+    </questoes>
+</quiz>
+
