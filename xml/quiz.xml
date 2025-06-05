@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTAPYE quiz SYSTEM "quiz.dtd">
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
 <quiz versao="1">
     <discilpina>Biologia</discilpina>
     <professor>
@@ -70,4 +70,3 @@
             </alternativas>
     </questoes>
 </quiz>
-

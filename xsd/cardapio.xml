@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns="http://cardapio.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+    <prato id="1">
+        <nome>Lasanha de Carne</nome>
+        <descricao>
+            Lasanha de carne, serve até 6 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Macarrão, queijo, carne (de sua preferencia), molho,milho,ervilha
+            </ingrediente>
+        </ingredientes>
+        <preco>50.00</preco>
+        <calorias>200</calorias>
+        <tempoPreparo>
+            1h e 20 min
+        </tempoPreparo>
+    </prato>
+    <prato id="2">
+        <nome>Arroz de Leite</nome>
+        <descricao>
+            Arroz de leite, serve até 8 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Arroz, leite,sal
+            </ingrediente>
+        </ingredientes>
+        <preco>20.00</preco>
+        <calorias>150</calorias>
+        <tempoPreparo>
+        45min
+        </tempoPreparo>
+    </prato>
+    <prato id="3">
+        <nome>Arroz de Leite</nome>
+        <descricao>
+            Arroz de leite, serve até 8 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Arroz, leite,sal
+            </ingrediente>
+        </ingredientes>
+        <preco>20.00</preco>
+        <calorias>150</calorias>
+        <tempoPreparo>
+        45min
+        </tempoPreparo>
+    </prato>
+    <prato id="4">
+        <nome>Carne Torrada</nome>
+        <descricao>
+            Serve até 6 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Carne, cebola,pimentão,alho,temperos secos,água
+            </ingrediente>
+        </ingredientes>
+        <preco>40.00</preco>
+        <calorias>350</calorias>
+        <tempoPreparo>
+        45min
+        </tempoPreparo>
+    </prato>
+    <prato id="5">
+        <nome>Bolo</nome>
+        <descricao>
+            Bolo de chocolate, serve até 10 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Farinha, ovos,leite,açúcar,margarina,chocolate em pó
+            </ingrediente>
+        </ingredientes>
+        <preco>60.00</preco>
+        <calorias>188</calorias>
+        <tempoPreparo>
+        1h
+        </tempoPreparo>
+    </prato>
+</cardapio>
