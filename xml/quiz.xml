@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE quiz SYSTEM "quiz.dtd">
 <quiz versao="1">
-    <discilpina>Biologia</discilpina>
+    <disciplina>Biologia</disciplina>
     <professor>
         <nome>Isadora</nome>
         <matricula>12345678</matricula>
@@ -32,6 +32,7 @@
                 <alternativa correta="sim">Procariontes e eucariontes</alternativa>
                 <alternativa correta="nao">Simples e compostas</alternativa>
                 <alternativa correta="nao">Atômicas e moleculares</alternativa>
+            </alternativas>
          </questao>
          <!-- Questão 03 -->
         <questao>
@@ -68,5 +69,6 @@
                 <alternativa correta="nao">Eucariontes são sempre menores que procariontes</alternativa>
                 <alternativa correta="nao">Procariontes possuem cloroplastos, e eucariontes não</alternativa>
             </alternativas>
+        </questao>
     </questoes>
 </quiz>
