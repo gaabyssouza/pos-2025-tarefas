@@ -1,0 +1,79 @@
+{
+    "cardapio":
+    [
+        {
+            "id": "P01",
+            "nome": "Lasanha de Carne",
+            "descricao": "Lasanha de carne, serve até 6 pessoas",
+            "ingredientes": [
+                "Macarrão",
+                "queijo",
+                "carne (de sua preferencia)",
+                "molho",
+                "milho",
+                "ervilha"
+            ],
+            "preco": 50.00,
+            "calorias": 200,
+            "tempoPreparo": "30 minutos"
+        },
+        {
+            "id": "P02",
+            "nome": "Arroz de Leite",
+            "descricao": " Arroz de leite, serve até 8 pessoas",
+            "ingredientes": [
+                "Arroz",
+                "leite",
+                "sal"
+            ],
+            "preco": 20.00,
+           "calorias": 150,
+            "tempoPreparo": "45 minutos"
+        },
+        {
+            "id": "P03",
+            "nome": "Arroz de Leite",
+            "descricao": "Arroz de leite, serve até 8 pessoas",
+            "ingredientes": [
+                "Arroz",
+                "leite",
+                "sal"
+            ],
+            "preco": 20.00,
+            "calorias": 150,
+            "tempoPreparo": "45 minutos"
+        },
+        {
+            "id": "P04",
+            "nome": "Carne Torrada",
+            "descricao": "Serve até 6 pessoas",
+            "ingredientes": [
+                "Carne",
+                "cebola",
+                "pimentão",
+                "alho",
+                "temperos secos",
+                "água"
+            ],
+            "preco": 40.00,
+            "calorias": 350,
+            "tempoPreparo": "45 minutos"
+        },
+        {
+            "id": "P05",
+            "nome": "Bolo",
+            "descricao": " Bolo de chocolate, serve até 10 pessoas",
+            "ingredientes": [
+                "Farinha de trigo",
+                "ovos",
+                "leite",
+                "açúcar",
+                "margarina",
+                "chocolate em pó"
+            ],
+            "preco": 60.00,
+            "calorias": 188,
+            "tempoPreparo": "1h"
+        }
+    ]
+}

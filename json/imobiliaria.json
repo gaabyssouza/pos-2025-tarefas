@@ -1,0 +1,117 @@
+{
+    "imobiliaria":
+    [
+        {
+            "imovel": "Apartamento",
+            "descricao": "Apartamento com vista para o mar.",
+            "proprietario": "João da Silva",
+            "email": "joao@email.com",
+            "telefone":
+            [
+                {
+                    "telefone": "1234-5678"
+                },
+                {
+                    "telefone": "21987654321"
+                }
+            ],
+            "endereco": {
+                "rua": "Av. Atlântica",
+                "bairro": "Copacabana",
+                "cidade": "Rio de Janeiro",
+                "numero": "1200"
+            },
+            "tamanho": "85 m²",
+            "numQuartos": 2,
+            "numBanheiros": 2,
+            "valor": 95.0000
+        },
+
+        {
+            "imovel": "Casa",
+            "descricao": "Casa térrea com quintal",
+            "proprietario": "Maria Oliveira",
+            "telefone": "21987654321",
+            "endereco": {
+                "rua": "Rua das Palmeiras",
+                "bairro": "Jardim Botânico",
+                "cidade": "Belo Horizonte",
+                "numero": "45"
+            },
+            "tamanho": "150 m²",
+            "numQuartos": 3,
+            "numBanheiros": 2,
+            "valor": 78.0000
+        },
+
+        {
+            "imovel":"Kitnet",
+            "descricao": "Kitnet mobiliada no centro",
+            "proprietario": "Carlos Mendes",
+            "email":[
+                {
+                    "email":"Kitnet mobiliada no centro"
+                },
+                {
+                    "email":"contato@carlosimoveis.com"
+                }
+            ],
+            "endereco":{
+                "rua": "Rua Central",
+                "bairro": "Centro",
+                "cidade": "Paraiba"
+            },
+            "tamanho": "30 m²",
+            "numQuartos": 1,
+            "numBanheiros": 1,
+            "valor": 35.0000
+        },
+
+        {
+            "imovel":"Casa",
+            "descricao": "Casa mobiliada no centro",
+            "proprietario": "Carlos Mendes",
+            "email":"carlos@exemplo.com",
+            "telefone":[
+                {
+                    "telefone": "21987654321"
+                },
+                {
+                    "telefone": "11999990000"
+                }
+            ],
+            "endereco":{
+                "rua": "Rua Principal",
+                "bairro": "Centro",
+                "cidade": "Natal"
+            },
+            "tamanho": "30 m²",
+            "numQuartos": 1,
+            "numBanheiros": 1,
+            "valor": 35.0000
+        },
+        {
+            "imovel":"Apartamento",
+            "descricao": "Apartamento mobiliada no centro",
+            "proprietario": "Carlos Mendes",
+            "email":"carlos@exemplo.com",
+            "telefone":[
+                {
+                    "telefone": "21987654321"
+                },
+                {
+                    "telefone": "11999990000"
+                }
+            ],
+            "endereco":{
+                "rua": "Rua Principal",
+                "bairro": "Centro",
+                "cidade": "São Paulo"
+            },
+            "tamanho": "30 m²",
+            "numQuartos": 1,
+            "numBanheiros": 1,
+            "valor": 35.0000
+        }
+    ]
+}

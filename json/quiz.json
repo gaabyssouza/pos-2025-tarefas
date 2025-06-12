@@ -1,0 +1,76 @@
+{
+    "quiz":{
+        "disciplina": "Biologia",
+        "professor": "Isadora",
+        "matricula": "12345678",
+        "turma": "INFOwEB4M",
+        "dara": "2025-05-28",
+        "questoes":{
+            "questao":{
+                "enunciado": "O que é uma célula?",
+                "pontuacao": 5,
+                "alternativas": {
+                    "a": "Um tipo de tecido",
+                    "b": "Uma unidade básica da vida",
+                    "c": "Um órgão do corpo",
+                    "d": "Um conjunto de átomos",
+                    "e": "Uma molécula complexa",
+                    "resposta_correta": "b"
+                }
+            },
+            "questao":{
+                "enunciado": "Quais são os principais tipos de células?",
+                "pontuacao": 5,
+                "alternativas": {
+                    "a": "Animais e minerais",
+                    "b": "Vegetais e minerais",
+                    "c": "Procariontes e eucariontes",
+                    "d": "Simples e compostas",
+                    "e": "Atômicas e moleculares",
+                    "resposta_correta": "c"
+                }
+            {
+                "questao":{
+                "enunciado": "Qual é a função da membrana plasmatica?",
+                "pontuacao": 5,
+                "alternativas":{
+                    "a": "Produzir energia para a celula",
+                    "b": "Controlar a entrada e saida de substancias",
+                    "c": "Armazenar nutrientes",
+                    "d": "Realizar a sintese proteica",
+                    "e": "Dividir a celula durante a reprodução",
+                    "resposta_correta": "b"
+                }
+                }
+            },
+            {
+                "questao":{
+                "enunciado": "Onde ocorre a produção de energia dentro da celula?",
+                "pontuacao": 5,
+                "alternativas":{
+                    "a": "Nucleo",
+                    "b": "Ribossomos",
+                    "c": "Mitocondrias",
+                    "d": "Lisossomos",
+                    "e": "Cloroplastos",
+                    "resposta_correta": "c"
+                }
+                }
+            },
+            {
+                "questao":{
+                "enunciado": "Qual a diferença entre células procariontes e eucariontes?",
+                "pontuacao": 5,
+                "alternativas":{
+                    "a": "Procariontes possuem núcleo definido, e eucariontes não",
+                    "b": "Eucariontes possuem núcleo definido, e procariontes não",
+                    "c": "Procariontes possuem mitocôndrias, e eucariontes não",
+                    "d": "Eucariontes são sempre menores que procariontes",
+                    "e": "Procariontes possuem cloroplastos, e eucariontes não",
+                    "resposta_correta": "b"
+                }
+                }
+            }
+        }
+    }
+}
