@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+    <prato id="P01">
+        <nome>Lasanha de Carne</nome>
+        <descricao>
+            Lasanha de carne, serve até 6 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Macarrão, queijo, carne (de sua preferencia), molho,milho,ervilha
+            </ingrediente>
+        </ingredientes>
+        <preco> &reais;50,00</preco>
+        <calorias>200</calorias>
+        <tempoPreparo>
+            1h e 20 min
+        </tempoPreparo>
+    </prato>
+    <prato id="P02">
+        <nome>Arroz de Leite</nome>
+        <descricao>
+            Arroz de leite, serve até 8 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Arroz, leite,sal
+            </ingrediente>
+        </ingredientes>
+        <preco>&reais;20,00</preco>
+        <calorias>150</calorias>
+        <tempoPreparo>
+           45min
+        </tempoPreparo>
+    </prato>
+    <prato id="P03">
+        <nome>Arroz de Leite</nome>
+        <descricao>
+            Arroz de leite, serve até 8 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Arroz, leite,sal
+            </ingrediente>
+        </ingredientes>
+        <preco>&reais;20</preco>
+        <calorias>150</calorias>
+        <tempoPreparo>
+           45min
+        </tempoPreparo>
+    </prato>
+    <prato id="P04">
+        <nome>Carne Torrada</nome>
+        <descricao>
+          Serve até 6 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Carne, cebola,pimentão,alho,temperos secos,água
+            </ingrediente>
+        </ingredientes>
+        <preco>&reais;40</preco>
+        <calorias>350</calorias>
+        <tempoPreparo>
+           45min
+        </tempoPreparo>
+    </prato>
+    <prato id="P05">
+        <nome>Bolo</nome>
+        <descricao>
+           Bolo de chocolate, serve até 10 pessoas
+        </descricao>
+        <ingredientes>
+            <ingrediente>
+                Farinha, ovos,leite,açúcar,margarina,chocolate em pó
+            </ingrediente>
+        </ingredientes>
+        <preco>&reais;60</preco>
+        <calorias>188</calorias>
+        <tempoPreparo>
+           1h
+        </tempoPreparo>
+    </prato>
+</cardapio>
