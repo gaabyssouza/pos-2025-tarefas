@@ -1,49 +1,38 @@
 import requests
-api_url = "https://jsonplaceholder.typicode.com/users"
 
-def list():
-    response = requests.get(api_url)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        raise Exception(f"Error fetching users: {response.status_code} - {response.text}")
+BASE_URL = "https://jsonplaceholder.typicode.com/users"
 
-def create(dados):
-    response = requests.post(api_url, json=dados)
-    if response.status_code == 201:
-        return response.json()
-    else:
-        raise Exception(f"Error creating user: {response.status_code} - {response.text}")
-        
-def read(user_id=None):
-    if user_id:
-        response = requests.get(f"{api_url}/{user_id}")
-        if response.status_code == 200:
-            return response.json()
-        else:
-            raise Exception(f"Error fetching user {user_id}: {response.status_code} - {response.text}")
-    else:
-        response = requests.get(api_url)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            raise Exception(f"Error fetching users: {response.status_code} - {response.text}")
+class UserAPI:
+    def __init__(self, base_url):
+        self.base_url = base_url
 
-def update(user_id, dados):
-    response = requests.put(f"{api_url}/{user_id}", json=dados)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        raise Exception(f"Error updating user {user_id}: {response.status_code} - {response.text}")
-def delete(user_id):   
-    response = requests.delete(f"{api_url}/{user_id}")
-    if response.status_code == 200:
-        return {"message": "Usuario deletado com sucesso!"}
-    elif response.status_code == 400:
-        return {"message": "Erro ao deletar o usuário!"}
-    elif response.status_code == 404:
-        return {"message": "Usuario não encontrado!"}
+        def list(self):
+            response = requests.get(self.base_url)
+                if response.status_code == 200:
+                    return response.json()
+                else:
+                    response.raise_for_status()
 
-    else:
-        raise Exception(f"Error deleting user {user_id}: {response.status_code} - {response.text}")
-
+        def create(self, data):
+            response = requests.post(self.base_url, json=data)
+                if response.status_code == 201:
+                    return response.json()
+                else:
+                   response.raise_for_status()
+                                                                                                                        
+        def read(self, user_id):
+            response = requests.get(f"{self.base_url}/{user_id}")
+                if response.status_code == 200:
+                    return response.json()
+                else:
+                    response.raise_for_status()
+                                                                                                                                                                                
+        def update(self, user_id, data):
+            response = requests.put(f"{self.base_url}/{user_id}", json=data)
+                if response.status_code == 200:
+                    return response.json()
+                else:
+                    response.raise_for_status()
+                                                                                                                                                                                                                                        
+        def delete(self, user_id):
+            response = requests.delete(f"{self.base_url}/{user_id}")
